@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="carrot-vitamin.github.io/"/>
-  <updated>2019-09-04T09:14:39.507Z</updated>
+  <updated>2019-09-04T09:33:24.246Z</updated>
   <id>carrot-vitamin.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="carrot-vitamin.github.io/2019/09/04/Test/"/>
     <id>carrot-vitamin.github.io/2019/09/04/Test/</id>
     <published>2019-09-04T06:48:04.000Z</published>
-    <updated>2019-09-04T09:14:39.507Z</updated>
+    <updated>2019-09-04T09:33:24.246Z</updated>
     
     <content type="html"><![CDATA[<p>Hello, Hexo!</p>]]></content>
     
@@ -36,12 +36,14 @@
     </summary>
     
     
-      <category term="测试" scheme="carrot-vitamin.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+      <category term="前端" scheme="carrot-vitamin.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="tag1" scheme="carrot-vitamin.github.io/tags/tag1/"/>
+      <category term="jQuery" scheme="carrot-vitamin.github.io/tags/jQuery/"/>
     
-      <category term="tag2" scheme="carrot-vitamin.github.io/tags/tag2/"/>
+      <category term="表格" scheme="carrot-vitamin.github.io/tags/%E8%A1%A8%E6%A0%BC/"/>
+    
+      <category term="表单验证" scheme="carrot-vitamin.github.io/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
     
   </entry>
   
