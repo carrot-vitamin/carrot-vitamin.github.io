@@ -4,11 +4,11 @@
 
 # Site
 title: Carrot
-subtitle: 步不停步，处于高出觅高处<br>足未满足，行已远行还远行。
+subtitle: 步不停步，处于高出觅高处；足未满足，行已远行还远行。
 description:
 keywords: Java, Linux
 author: carrot-vitamin
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -81,7 +81,7 @@ feed:
   path: atom.xml
   limit: 20
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -5,17 +5,20 @@
   
 
   
-  <title>标签 | Carrot</title>
+  <title>SQL命令 | Carrot</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="Java, Linux">
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="carrot-vitamin.github.io/tags/index.html">
+  <meta name="description" content="select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&amp;gt;1；查询表中某一（某几个）字段内的重复数据 Oracle：表名：person 列名：pid,name,interest,birth,sex  N条数据，name字段like多个关键字查询：查询名字中带“花”或“明”或“刚”的数据select * from pers">
+<meta name="keywords" content="oracle,mysql">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SQL命令">
+<meta property="og:url" content="carrot-vitamin.github.io/2017/06/15/SQL命令/index.html">
 <meta property="og:site_name" content="Carrot">
+<meta property="og:description" content="select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&amp;gt;1；查询表中某一（某几个）字段内的重复数据 Oracle：表名：person 列名：pid,name,interest,birth,sex  N条数据，name字段like多个关键字查询：查询名字中带“花”或“明”或“刚”的数据select * from pers">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-04T09:31:04.323Z">
+<meta property="og:updated_time" content="2019-09-05T03:42:07.998Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签">
+<meta name="twitter:title" content="SQL命令">
+<meta name="twitter:description" content="select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&amp;gt;1；查询表中某一（某几个）字段内的重复数据 Oracle：表名：person 列名：pid,name,interest,birth,sex  N条数据，name字段like多个关键字查询：查询名字中带“花”或“明”或“刚”的数据select * from pers">
   
     <link rel="alternate" href="/atom.xml" title="Carrot" type="application/atom+xml">
   
@@ -66,12 +69,16 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-SQL命令" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/tags/index.html" class="article-date">
-  <time datetime="2019-09-04T09:12:53.000Z" itemprop="datePublished">2019-09-04</time>
+    <a href="/2017/06/15/SQL命令/" class="article-date">
+  <time datetime="2017-06-15T03:43:04.000Z" itemprop="datePublished">2017-06-15</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/数据库/">数据库</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -80,7 +87,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      标签
+      SQL命令
     </h1>
   
 
@@ -88,17 +95,41 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&gt;1；查询表中某一（某几个）字段内的重复数据</p>
+<h4 id="Oracle："><a href="#Oracle：" class="headerlink" title="Oracle："></a>Oracle：</h4><p>表名：person</p>
+<p>列名：pid,name,interest,birth,sex</p>
+<ul>
+<li>N条数据，name字段like多个关键字查询：<br>查询名字中带“花”或“明”或“刚”的数据<br>select * from person where regexp_like(name, ‘花|明|刚’);</li>
+<li>N条数据，按照interest分类，选出每组数据中birth最大的数据<br>select * from (select p.*,row_number() over (partition by interest order by birth desc) r from person p) where r=1;</li>
+<li>将查询结果的枚举值转化为对应的文字描述<br>select pid,name,sex,decode(sex,’0’,’女’,’1’,’男’,’其他’) as 性别,interest,birth from person;<br>注释：将查询的列sex里的值’0’转化为’女’，’1’转化为’男’显示到查询结果中。</li>
+</ul>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="carrot-vitamin.github.io/tags/index.html" data-id="ck06a9jt90007wv6gq7o4kya9" class="article-share-link">Share</a>
+      <a data-url="carrot-vitamin.github.io/2017/06/15/SQL命令/" data-id="ck06a9jt00000wv6gc8p69q9n" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/">mysql</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/oracle/">oracle</a></li></ul>
+
     </footer>
   </div>
   
     
+<nav id="article-nav">
+  
+    <a href="/2017/07/23/outlook邮箱pop3配置/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          outlook建立邮箱
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
   
 </article>
 

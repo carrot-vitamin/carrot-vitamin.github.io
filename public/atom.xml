@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Carrot</title>
   
-  <subtitle>步不停步，处于高出觅高处&lt;br&gt;足未满足，行已远行还远行。</subtitle>
+  <subtitle>步不停步，处于高出觅高处；足未满足，行已远行还远行。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="carrot-vitamin.github.io/"/>
-  <updated>2019-09-04T09:33:24.246Z</updated>
+  <updated>2019-09-05T03:41:11.188Z</updated>
   <id>carrot-vitamin.github.io/</id>
   
   <author>
@@ -17,55 +17,117 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello</title>
-    <link href="carrot-vitamin.github.io/2019/09/04/Test/"/>
-    <id>carrot-vitamin.github.io/2019/09/04/Test/</id>
-    <published>2019-09-04T06:48:04.000Z</published>
-    <updated>2019-09-04T09:33:24.246Z</updated>
+    <title>Linux命令</title>
+    <link href="carrot-vitamin.github.io/2018/05/15/Linux%E5%91%BD%E4%BB%A4/"/>
+    <id>carrot-vitamin.github.io/2018/05/15/Linux命令/</id>
+    <published>2018-05-15T08:43:06.000Z</published>
+    <updated>2019-09-05T03:41:11.188Z</updated>
     
-    <content type="html"><![CDATA[<p>Hello, Hexo!</p>]]></content>
+    <content type="html"><![CDATA[<p>select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&gt;1；查询表中某一（某几个）字段内的重复数据</p><h4 id="常用linux命令："><a href="#常用linux命令：" class="headerlink" title="常用linux命令："></a>常用linux命令：</h4><p><code>tailf 文件名</code> 追踪文件最新内容<br><code>tail -f 文件名 | perl -pe &#39;s/(要追踪的关键字)/\e[1;31m$1\e[0m/g&#39;</code> 追踪的关键字出现会高亮显示<br><code>scp root@172.16.01.02:/temp/paygate.war ./</code> 拷贝远程机文件至当前目录下<br><code>ps -ef|grep tomcat</code> 查看tomcat进程<br><code>kill -9 进程号</code> 杀掉tomcat进程<br><code>tar -cvf filename.tar file</code> 将file文件压缩为filename.tar文件<br><code>tar -xvf filename.tar</code> 解压filename.tar<br><code>rm -fr filename</code> 删除文件<br><code>cp /temp/paygate.war ./</code> 拷贝本地文件至当前目录下</p><h4 id="后台启动jar包命令："><a href="#后台启动jar包命令：" class="headerlink" title="后台启动jar包命令："></a>后台启动jar包命令：</h4><blockquote><p>nohup java -jar XXX.jar &gt;out.txt &amp;</p></blockquote><p>out.txt将command的输出重定向到out.txt文件，即输出内容不打印到屏幕上，而是输出到out.txt文件中。<br>关闭该进程：kill -9 进程号</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Hello, Hexo!&lt;/p&gt;
-
+        &lt;p&gt;select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&amp;gt;1；查询表中某一（某几个）字段内的重复数据&lt;/p&gt;
+&lt;h4 id=&quot;常用linux命令：&quot;&gt;&lt;a href=&quot;#常用linux命令：&quot; c
       
     
     </summary>
     
     
-      <category term="前端" scheme="carrot-vitamin.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="linux" scheme="carrot-vitamin.github.io/categories/linux/"/>
     
-    
-      <category term="jQuery" scheme="carrot-vitamin.github.io/tags/jQuery/"/>
-    
-      <category term="表格" scheme="carrot-vitamin.github.io/tags/%E8%A1%A8%E6%A0%BC/"/>
-    
-      <category term="表单验证" scheme="carrot-vitamin.github.io/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="carrot-vitamin.github.io/2019/09/04/hello-world/"/>
-    <id>carrot-vitamin.github.io/2019/09/04/hello-world/</id>
-    <published>2019-09-04T06:32:44.297Z</published>
-    <updated>2019-09-04T06:32:44.297Z</updated>
+    <title>eclipse使用技巧</title>
+    <link href="carrot-vitamin.github.io/2017/09/15/eclipse%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    <id>carrot-vitamin.github.io/2017/09/15/eclipse使用技巧/</id>
+    <published>2017-09-15T11:43:04.000Z</published>
+    <updated>2019-09-05T03:40:02.299Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="eclipse在线安装svn插件："><a href="#eclipse在线安装svn插件：" class="headerlink" title="eclipse在线安装svn插件："></a>eclipse在线安装svn插件：</h4><ul><li>菜单 —&gt; Help —&gt; Install New Software</li><li>进入安装窗体后，点击安装窗体的Add按钮，然后在弹出的窗体中输入插件安装地址：<blockquote><p><a href="http://subclipse.tigris.org/update_1.6.x" target="_blank" rel="noopener">subversion 1.6.x客户端</a><br><a href="http://subclipse.tigris.org/update_1.8.x" target="_blank" rel="noopener">subversion 1.7.x客户端</a><br><a href="http://subclipse.tigris.org/update_1.10.x/" target="_blank" rel="noopener">subversion 1.8.x客户端</a><br><a href="http://subclipse.tigris.org/update_1.12.x/" target="_blank" rel="noopener">目前最高版本的SVN插件(截止到2017年1月20日)</a></p></blockquote></li><li>在eclipse目录下修改eclipse.ini文件来指定eclipse启动JDK路径：<blockquote><p>-vm<br>C:/Program Files/Java/jdk1.7/jdk1.7.0_51/bin/javaw.exe<br>添加至 -vmargs 参数上方</p></blockquote></li></ul><h4 id="eclipse在线安装反编译插件："><a href="#eclipse在线安装反编译插件：" class="headerlink" title="eclipse在线安装反编译插件："></a>eclipse在线安装反编译插件：</h4><ul><li>Help –&gt; Eclipse Marketplace</li><li>搜索 “Decompiler”，安装即可<br><img src="https://images2018.cnblogs.com/blog/1160920/201806/1160920-20180625110400786-1103606120.png" alt="Decompiler"></li></ul><h4 id="开发工具问题："><a href="#开发工具问题：" class="headerlink" title="开发工具问题："></a>开发工具问题：</h4><ul><li>IDEA使用git做pull或push操作时，频繁弹出github登陆窗口，可在命令行或idea terminal（终端）输入命令：</li></ul><blockquote><p>git config –global credential.helper store</p></blockquote><p>之后的pull或push只需要再输入一次用户名密码就不用再反复输入了。</p><ul><li>终端输入 命令：</li></ul><blockquote><p>git config –global user.name “username”</p></blockquote><p>可更改提交者的名称</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h4 id=&quot;eclipse在线安装svn插件：&quot;&gt;&lt;a href=&quot;#eclipse在线安装svn插件：&quot; class=&quot;headerlink&quot; title=&quot;eclipse在线安装svn插件：&quot;&gt;&lt;/a&gt;eclipse在线安装svn插件：&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;菜单 —
       
     
     </summary>
     
     
+      <category term="开发工具" scheme="carrot-vitamin.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="eclipse" scheme="carrot-vitamin.github.io/tags/eclipse/"/>
+    
+      <category term="svn" scheme="carrot-vitamin.github.io/tags/svn/"/>
+    
+      <category term="git" scheme="carrot-vitamin.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>outlook建立邮箱</title>
+    <link href="carrot-vitamin.github.io/2017/07/23/outlook%E9%82%AE%E7%AE%B1pop3%E9%85%8D%E7%BD%AE/"/>
+    <id>carrot-vitamin.github.io/2017/07/23/outlook邮箱pop3配置/</id>
+    <published>2017-07-23T11:38:06.000Z</published>
+    <updated>2019-09-05T02:27:19.879Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用windows自带的outlook建立邮箱需要配置POP3，配置方法如下：</p><ul><li>在outlook邮箱设置里启用POP3；</li><li>接收邮件服务器配置：pop3-mail.outlook.com</li><li>发送邮件服务器配置：smtp-mail.outlook.com</li><li>其他设置 –&gt;发送服务器 –&gt;我的发送要求验证</li><li>其他设置 –&gt;高级 –&gt;接收服务器 995，勾选 此服务要求加密连接</li><li>发送服务器 –&gt; 587 使用tls加密类型</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;使用windows自带的outlook建立邮箱需要配置POP3，配置方法如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在outlook邮箱设置里启用POP3；&lt;/li&gt;
+&lt;li&gt;接收邮件服务器配置：pop3-mail.outlook.com&lt;/li&gt;
+&lt;li&gt;发送邮件服务器配置：smt
+      
+    
+    </summary>
+    
+    
+      <category term="windows" scheme="carrot-vitamin.github.io/categories/windows/"/>
+    
+    
+      <category term="outlook" scheme="carrot-vitamin.github.io/tags/outlook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQL命令</title>
+    <link href="carrot-vitamin.github.io/2017/06/15/SQL%E5%91%BD%E4%BB%A4/"/>
+    <id>carrot-vitamin.github.io/2017/06/15/SQL命令/</id>
+    <published>2017-06-15T03:43:04.000Z</published>
+    <updated>2019-09-05T03:42:07.998Z</updated>
+    
+    <content type="html"><![CDATA[<p>select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&gt;1；查询表中某一（某几个）字段内的重复数据</p><h4 id="Oracle："><a href="#Oracle：" class="headerlink" title="Oracle："></a>Oracle：</h4><p>表名：person</p><p>列名：pid,name,interest,birth,sex</p><ul><li>N条数据，name字段like多个关键字查询：<br>查询名字中带“花”或“明”或“刚”的数据<br>select * from person where regexp_like(name, ‘花|明|刚’);</li><li>N条数据，按照interest分类，选出每组数据中birth最大的数据<br>select * from (select p.*,row_number() over (partition by interest order by birth desc) r from person p) where r=1;</li><li>将查询结果的枚举值转化为对应的文字描述<br>select pid,name,sex,decode(sex,’0’,’女’,’1’,’男’,’其他’) as 性别,interest,birth from person;<br>注释：将查询的列sex里的值’0’转化为’女’，’1’转化为’男’显示到查询结果中。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&amp;gt;1；查询表中某一（某几个）字段内的重复数据&lt;/p&gt;
+&lt;h4 id=&quot;Oracle：&quot;&gt;&lt;a href=&quot;#Oracle：&quot; class=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="carrot-vitamin.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="oracle" scheme="carrot-vitamin.github.io/tags/oracle/"/>
+    
+      <category term="mysql" scheme="carrot-vitamin.github.io/tags/mysql/"/>
     
   </entry>
   

@@ -5,17 +5,20 @@
   
 
   
-  <title>标签 | Carrot</title>
+  <title>Linux命令 | Carrot</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="Java, Linux">
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="carrot-vitamin.github.io/tags/index.html">
+  <meta name="description" content="select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&amp;gt;1；查询表中某一（某几个）字段内的重复数据 常用linux命令：tailf 文件名 追踪文件最新内容tail -f 文件名 | perl -pe &amp;#39;s/(要追踪的关键字)/\e[1;31m$1\e[0m/g&amp;#39; 追踪的关键字出现会高亮显示scp ro">
+<meta name="keywords" content="Java, Linux">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux命令">
+<meta property="og:url" content="carrot-vitamin.github.io/2018/05/15/Linux命令/index.html">
 <meta property="og:site_name" content="Carrot">
+<meta property="og:description" content="select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&amp;gt;1；查询表中某一（某几个）字段内的重复数据 常用linux命令：tailf 文件名 追踪文件最新内容tail -f 文件名 | perl -pe &amp;#39;s/(要追踪的关键字)/\e[1;31m$1\e[0m/g&amp;#39; 追踪的关键字出现会高亮显示scp ro">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-04T09:31:04.323Z">
+<meta property="og:updated_time" content="2019-09-05T03:41:11.188Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签">
+<meta name="twitter:title" content="Linux命令">
+<meta name="twitter:description" content="select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&amp;gt;1；查询表中某一（某几个）字段内的重复数据 常用linux命令：tailf 文件名 追踪文件最新内容tail -f 文件名 | perl -pe &amp;#39;s/(要追踪的关键字)/\e[1;31m$1\e[0m/g&amp;#39; 追踪的关键字出现会高亮显示scp ro">
   
     <link rel="alternate" href="/atom.xml" title="Carrot" type="application/atom+xml">
   
@@ -66,12 +69,16 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Linux命令" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/tags/index.html" class="article-date">
-  <time datetime="2019-09-04T09:12:53.000Z" itemprop="datePublished">2019-09-04</time>
+    <a href="/2018/05/15/Linux命令/" class="article-date">
+  <time datetime="2018-05-15T08:43:06.000Z" itemprop="datePublished">2018-05-15</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/linux/">linux</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -80,7 +87,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      标签
+      Linux命令
     </h1>
   
 
@@ -88,17 +95,33 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&gt;1；查询表中某一（某几个）字段内的重复数据</p>
+<h4 id="常用linux命令："><a href="#常用linux命令：" class="headerlink" title="常用linux命令："></a>常用linux命令：</h4><p><code>tailf 文件名</code> 追踪文件最新内容<br><code>tail -f 文件名 | perl -pe &#39;s/(要追踪的关键字)/\e[1;31m$1\e[0m/g&#39;</code> 追踪的关键字出现会高亮显示<br><code>scp root@172.16.01.02:/temp/paygate.war ./</code> 拷贝远程机文件至当前目录下<br><code>ps -ef|grep tomcat</code> 查看tomcat进程<br><code>kill -9 进程号</code> 杀掉tomcat进程<br><code>tar -cvf filename.tar file</code> 将file文件压缩为filename.tar文件<br><code>tar -xvf filename.tar</code> 解压filename.tar<br><code>rm -fr filename</code> 删除文件<br><code>cp /temp/paygate.war ./</code> 拷贝本地文件至当前目录下</p>
+<h4 id="后台启动jar包命令："><a href="#后台启动jar包命令：" class="headerlink" title="后台启动jar包命令："></a>后台启动jar包命令：</h4><blockquote>
+<p>nohup java -jar XXX.jar &gt;out.txt &amp;</p>
+</blockquote>
+<p>out.txt将command的输出重定向到out.txt文件，即输出内容不打印到屏幕上，而是输出到out.txt文件中。<br>关闭该进程：kill -9 进程号</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="carrot-vitamin.github.io/tags/index.html" data-id="ck06a9jt90007wv6gq7o4kya9" class="article-share-link">Share</a>
+      <a data-url="carrot-vitamin.github.io/2018/05/15/Linux命令/" data-id="ck06a9jt40002wv6g5uqia8dn" class="article-share-link">Share</a>
       
       
     </footer>
   </div>
   
     
+<nav id="article-nav">
+  
+  
+    <a href="/2017/09/15/eclipse使用技巧/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">eclipse使用技巧</div>
+    </a>
+  
+</nav>
+
   
 </article>
 
