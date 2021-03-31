@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>胡子叔叔的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  <meta name="description" content="关于Java开发的一些技术分析">
+<meta property="og:type" content="website">
+<meta property="og:title" content="胡子叔叔的博客">
+<meta property="og:url" content="http://beard.gitee.io/blog/index.html">
+<meta property="og:site_name" content="胡子叔叔的博客">
+<meta property="og:description" content="关于Java开发的一些技术分析">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="胡子叔叔的博客">
+<meta name="twitter:description" content="关于Java开发的一些技术分析">
+  
+    <link rel="alternate" href="/atom.xml" title="胡子叔叔的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/images/default-avatar.jpg">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/highlight.css">
+</head>
+</html>
+<body>
+  <div id="fullpage" class="mobile-nav-right">
+    
+      <div id="wrapper" style="background-image: url(/images/bg.jpg)" title="背景图片来自网络">
+    
+    
+      <header id="header">
+  <div id="nav-toggle" class="nav-toggle"></div>
+  <div class="head-box global-width">
+    <nav class="nav-box nav-right">
+      
+        <a class="nav-item" href="/" title
+        
+        >首页</a>
+      
+        <a class="nav-item" href="/archives" title
+        
+        >归档</a>
+      
+    </nav>
+  </div>
+</header>
+      <div id="middlecontent" title class="global-width sidebar-right">
+        <section id="main">
+  
+    <article id="post-Linux命令" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/05/15/Linux命令/">Linux命令</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2018/05/15/Linux命令/" class="article-date">
+  <time datetime="2018-05-15T08:43:06.000Z" itemprop="datePublished">2018-05-15 16:43:06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/linux/">linux</a>
+  </div>
+
+    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <h5 id="常用-Linux-命令："><a href="#常用-Linux-命令：" class="headerlink" title="常用 Linux 命令："></a>常用 Linux 命令：</h5><ul>
+<li><code>tailf 文件名</code> 追踪文件最新内容</li>
+<li><code>tail -f 文件名 | perl -pe &#39;s/(要追踪的关键字)/\e[1;31m$1\e[0m/g&#39;</code> 追踪的关键字出现会高亮显示</li>
+<li><code>scp root@172.16.01.02:/temp/paygate.war ./</code> 拷贝远程机文件至当前目录下</li>
+<li><code>ps -ef|grep tomcat</code> 查看tomcat进程</li>
+<li><code>kill -9 进程号</code> 杀掉tomcat进程</li>
+<li><code>tar -cvf filename.tar file</code> 将file文件压缩为 filename.tar 文件</li>
+<li><code>tar -xvf filename.tar</code> 解压 filename.tar</li>
+<li><code>rm -fr filename</code> 删除文件</li>
+<li><code>cp /temp/paygate.war ./</code> 拷贝本地文件至当前目录下</li>
+</ul>
+<h5 id="后台启动jar包命令："><a href="#后台启动jar包命令：" class="headerlink" title="后台启动jar包命令："></a>后台启动jar包命令：</h5><p><code>nohup java -jar XXX.jar &gt;out.txt &amp;</code><br>out.txt将控制台的输出重定向到out.txt文件，即输出内容不打印到屏幕上，而是输出到out.txt文件中。<br>关闭该进程：kill -9 进程号</p>
+
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+    <article id="post-Java连接虚拟机Oracle数据库的问题" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/11/Java连接虚拟机Oracle数据库的问题/">Java连接虚拟机Oracle数据库的问题</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2017/10/11/Java连接虚拟机Oracle数据库的问题/" class="article-date">
+  <time datetime="2017-10-11T06:46:06.000Z" itemprop="datePublished">2017-10-11 14:46:06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/linux/">linux</a>
+  </div>
+
+    
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <p>最近在电脑上装了虚拟机，为的是在虚拟机上安装Oracle数据库，Oracle实在太占内存，配置低的电脑装个Oracle几乎就瘫了，没办法，搞个虚拟机玩玩。我虚拟机用的是xp系统，顺便怀念下经典。装好Oracle之后，虚拟机使用pl/sql developer可以连接，但是物理机Java连接却始终报如下的一个错误：</p>
+<pre><code>### Error updating database. Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io 异常: The Network Adapter could not establish the connection)
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io 异常: The Network Adapter could not establish the connection), mergedContextConfiguration = [MergedContextConfiguration@578f7a8 testClass = UserTest, locations = &apos;{classpath*:/META-INF/spring/spring-*.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class dirties context [false], class mode [null], method dirties context [false].</code></pre>
+        
+          <p class="article-more-link">
+            <a href="/2017/10/11/Java连接虚拟机Oracle数据库的问题/#more">阅读全文</a>
+          </p>
+        
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+    <article id="post-eclipse插件安装" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/09/15/eclipse插件安装/">eclipse插件安装</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2017/09/15/eclipse插件安装/" class="article-date">
+  <time datetime="2017-09-15T11:43:04.000Z" itemprop="datePublished">2017-09-15 19:43:04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/开发工具/">开发工具</a>
+  </div>
+
+    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/eclipse/">eclipse</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/svn/">svn</a></li></ul>
+
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <h4 id="在线安装-SVN-插件："><a href="#在线安装-SVN-插件：" class="headerlink" title="在线安装 SVN 插件："></a>在线安装 SVN 插件：</h4><ol>
+<li><p>菜单 —&gt; Help —&gt; Install New Software</p>
+</li>
+<li><p>进入安装窗体后，点击安装窗体的Add按钮，然后在弹出的窗体中输入插件安装地址：</p>
+<ul>
+<li><a href="http://subclipse.tigris.org/update_1.6.x" target="_blank" rel="noopener">subversion 1.6.x客户端</a></li>
+<li><a href="http://subclipse.tigris.org/update_1.8.x" target="_blank" rel="noopener">subversion 1.7.x客户端</a></li>
+<li><a href="http://subclipse.tigris.org/update_1.10.x/" target="_blank" rel="noopener">subversion 1.8.x客户端</a></li>
+<li><a href="http://subclipse.tigris.org/update_1.12.x/" target="_blank" rel="noopener">目前最高版本的SVN插件(截止到2017年1月20日)</a></li>
+</ul>
+</li>
+<li><p>在eclipse目录下修改eclipse.ini文件来指定eclipse启动JDK路径：  </p>
+<p> <em>-vm</em><br> <em>C:/Program Files/Java/jdk1.7/jdk1.7.0_51/bin/javaw.exe</em></p>
+<p> 添加至 -vmargs 参数上方</p>
+</li>
+</ol>
+        
+          <p class="article-more-link">
+            <a href="/2017/09/15/eclipse插件安装/#more">阅读全文</a>
+          </p>
+        
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+    <article id="post-outlook邮箱pop3配置" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/07/23/outlook邮箱pop3配置/">outlook建立邮箱</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2017/07/23/outlook邮箱pop3配置/" class="article-date">
+  <time datetime="2017-07-23T11:38:06.000Z" itemprop="datePublished">2017-07-23 19:38:06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/windows/">windows</a>
+  </div>
+
+    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/outlook/">outlook</a></li></ul>
+
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <p>使用windows自带的outlook建立邮箱需要配置POP3，配置方法如下：</p>
+<ul>
+<li>在outlook邮箱设置里启用POP3；</li>
+<li>接收邮件服务器配置：pop3-mail.outlook.com</li>
+<li>发送邮件服务器配置：smtp-mail.outlook.com</li>
+<li>其他设置 –&gt;发送服务器 –&gt;我的发送要求验证</li>
+<li>其他设置 –&gt;高级 –&gt;接收服务器 995，勾选 此服务要求加密连接</li>
+<li>发送服务器 –&gt; 587 使用tls加密类型</li>
+</ul>
+
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+    <article id="post-SQL命令" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/15/SQL命令/">SQL命令</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2017/06/15/SQL命令/" class="article-date">
+  <time datetime="2017-06-15T03:43:04.000Z" itemprop="datePublished">2017-06-15 11:43:04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/数据库/">数据库</a>
+  </div>
+
+    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/">mysql</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/oracle/">oracle</a></li></ul>
+
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <p>select 字段名 from 表名 group by 字段名（或是多个字段名，中间用逗号隔开） having count(*)&gt;1；查询表中某一（某几个）字段内的重复数据</p>
+<h4 id="Oracle："><a href="#Oracle：" class="headerlink" title="Oracle："></a>Oracle：</h4><p>表名：person</p>
+<p>列名：pid,name,interest,birth,sex</p>
+<ul>
+<li>N条数据，name字段like多个关键字查询：<br>查询名字中带“花”或“明”或“刚”的数据<br>select * from person where regexp_like(name, ‘花|明|刚’);</li>
+<li>N条数据，按照interest分类，选出每组数据中birth最大的数据<br>select * from (select p.*,row_number() over (partition by interest order by birth desc) r from person p) where r=1;</li>
+<li>将查询结果的枚举值转化为对应的文字描述<br>select pid,name,sex,decode(sex,’0’,’女’,’1’,’男’,’其他’) as 性别,interest,birth from person;<br>注释：将查询的列sex里的值’0’转化为’女’，’1’转化为’男’显示到查询结果中。</li>
+</ul>
+
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
+
+
+
+</section>
+        <aside id="sidebar">
+  
+    <div class="widget-box">
+  <div class="avatar-box">
+    <img class="avatar" src="/images/default-avatar.jpg" title="头像来自网络"></img>
+    <h3 class="avatar-name">
+      
+        胡子叔叔
+      
+    </h3>
+    <p class="avatar-slogan">
+      资深的打酱油攻城狮
+    </p>
+  </div>
+</div>
+
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/windows/">windows</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/开发工具/">开发工具</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据库/">数据库</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/eclipse/">eclipse</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/oracle/">oracle</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/outlook/">outlook</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/svn/">svn</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/eclipse/" style="font-size: 10px;">eclipse</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/oracle/" style="font-size: 10px;">oracle</a> <a href="/tags/outlook/" style="font-size: 10px;">outlook</a> <a href="/tags/svn/" style="font-size: 10px;">svn</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">五月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">十月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">九月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">七月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">六月 2017</a></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-box">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/05/15/Linux命令/">Linux命令</a>
+          </li>
+        
+          <li>
+            <a href="/2017/10/11/Java连接虚拟机Oracle数据库的问题/">Java连接虚拟机Oracle数据库的问题</a>
+          </li>
+        
+          <li>
+            <a href="/2017/09/15/eclipse插件安装/">eclipse插件安装</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/23/outlook邮箱pop3配置/">outlook建立邮箱</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/15/SQL命令/">SQL命令</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+      <div class="widget-box">
+    <h3 class="widget-title">友链</h3>
+    <div class="widget">
+      
+        <a style="display: block;" href="https://github.com/carrot-vitamin" title target='_blank'
+        >Github</a>
+      
+    </div>
+  </div>
+
+  
+</aside>
+      </div>
+      <footer id="footer">
+  <div class="foot-box global-width">
+    &copy; 2021 carrot-vitamin &nbsp;&nbsp;
+    <!--驱动于 <a href="http://hexo.io/" target="_blank">Hexo</a>-->
+    <!--&nbsp;|&nbsp;主题 <a href="https://github.com/yiluyanxia/hexo-theme-antiquity">antiquity</a>-->
+    <br>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">阁下是第<span id="busuanzi_value_site_pv"></span>个访客</span>
+  </div>
+</footer>
+      <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script>
+if (!window.jQuery) {
+var script = document.createElement('script');
+script.src = "/js/jquery-2.0.3.min.js";
+document.body.write(script);
+}
+</script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+    </div>
+    <nav id="mobile-nav" class="mobile-nav-box">
+  <div class="mobile-nav-img mobile-nav-top"></div>
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives" class="mobile-nav-link">归档</a>
+  
+  <div class="mobile-nav-img  mobile-nav-bottom"></div>
+</nav>    
+  </div>
+</body>
+</html>
