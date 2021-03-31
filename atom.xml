@@ -5,9 +5,9 @@
   <subtitle>不积跬步，无以至千里；不积小流，无以成江海。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://beard.gitee.io/blog/"/>
+  <link href="carrot-vitamin.github.io/"/>
   <updated>2021-03-30T08:55:35.094Z</updated>
-  <id>http://beard.gitee.io/blog/</id>
+  <id>carrot-vitamin.github.io/</id>
   
   <author>
     <name>carrot-vitamin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Linux命令</title>
-    <link href="http://beard.gitee.io/blog/2018/05/15/Linux%E5%91%BD%E4%BB%A4/"/>
-    <id>http://beard.gitee.io/blog/2018/05/15/Linux命令/</id>
+    <link href="carrot-vitamin.github.io/2018/05/15/Linux%E5%91%BD%E4%BB%A4/"/>
+    <id>carrot-vitamin.github.io/2018/05/15/Linux命令/</id>
     <published>2018-05-15T08:43:06.000Z</published>
     <updated>2021-03-30T08:55:35.094Z</updated>
     
@@ -36,17 +36,17 @@
     </summary>
     
     
-      <category term="linux" scheme="http://beard.gitee.io/blog/categories/linux/"/>
+      <category term="linux" scheme="carrot-vitamin.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="http://beard.gitee.io/blog/tags/linux/"/>
+      <category term="linux" scheme="carrot-vitamin.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>Java连接虚拟机Oracle数据库的问题</title>
-    <link href="http://beard.gitee.io/blog/2017/10/11/Java%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BAOracle%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>http://beard.gitee.io/blog/2017/10/11/Java连接虚拟机Oracle数据库的问题/</id>
+    <link href="carrot-vitamin.github.io/2017/10/11/Java%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BAOracle%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>carrot-vitamin.github.io/2017/10/11/Java连接虚拟机Oracle数据库的问题/</id>
     <published>2017-10-11T06:46:06.000Z</published>
     <updated>2021-03-30T08:55:35.094Z</updated>
     
@@ -61,15 +61,15 @@
     </summary>
     
     
-      <category term="linux" scheme="http://beard.gitee.io/blog/categories/linux/"/>
+      <category term="linux" scheme="carrot-vitamin.github.io/categories/linux/"/>
     
     
   </entry>
   
   <entry>
     <title>eclipse插件安装</title>
-    <link href="http://beard.gitee.io/blog/2017/09/15/eclipse%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
-    <id>http://beard.gitee.io/blog/2017/09/15/eclipse插件安装/</id>
+    <link href="carrot-vitamin.github.io/2017/09/15/eclipse%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <id>carrot-vitamin.github.io/2017/09/15/eclipse插件安装/</id>
     <published>2017-09-15T11:43:04.000Z</published>
     <updated>2021-03-30T09:09:00.305Z</updated>
     
@@ -97,21 +97,21 @@
     </summary>
     
     
-      <category term="开发工具" scheme="http://beard.gitee.io/blog/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+      <category term="开发工具" scheme="carrot-vitamin.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="eclipse" scheme="http://beard.gitee.io/blog/tags/eclipse/"/>
+      <category term="eclipse" scheme="carrot-vitamin.github.io/tags/eclipse/"/>
     
-      <category term="svn" scheme="http://beard.gitee.io/blog/tags/svn/"/>
+      <category term="svn" scheme="carrot-vitamin.github.io/tags/svn/"/>
     
-      <category term="git" scheme="http://beard.gitee.io/blog/tags/git/"/>
+      <category term="git" scheme="carrot-vitamin.github.io/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>outlook建立邮箱</title>
-    <link href="http://beard.gitee.io/blog/2017/07/23/outlook%E9%82%AE%E7%AE%B1pop3%E9%85%8D%E7%BD%AE/"/>
-    <id>http://beard.gitee.io/blog/2017/07/23/outlook邮箱pop3配置/</id>
+    <link href="carrot-vitamin.github.io/2017/07/23/outlook%E9%82%AE%E7%AE%B1pop3%E9%85%8D%E7%BD%AE/"/>
+    <id>carrot-vitamin.github.io/2017/07/23/outlook邮箱pop3配置/</id>
     <published>2017-07-23T11:38:06.000Z</published>
     <updated>2021-03-30T08:55:35.096Z</updated>
     
@@ -131,17 +131,17 @@
     </summary>
     
     
-      <category term="windows" scheme="http://beard.gitee.io/blog/categories/windows/"/>
+      <category term="windows" scheme="carrot-vitamin.github.io/categories/windows/"/>
     
     
-      <category term="outlook" scheme="http://beard.gitee.io/blog/tags/outlook/"/>
+      <category term="outlook" scheme="carrot-vitamin.github.io/tags/outlook/"/>
     
   </entry>
   
   <entry>
     <title>SQL命令</title>
-    <link href="http://beard.gitee.io/blog/2017/06/15/SQL%E5%91%BD%E4%BB%A4/"/>
-    <id>http://beard.gitee.io/blog/2017/06/15/SQL命令/</id>
+    <link href="carrot-vitamin.github.io/2017/06/15/SQL%E5%91%BD%E4%BB%A4/"/>
+    <id>carrot-vitamin.github.io/2017/06/15/SQL命令/</id>
     <published>2017-06-15T03:43:04.000Z</published>
     <updated>2021-03-30T08:55:35.094Z</updated>
     
@@ -158,12 +158,12 @@
     </summary>
     
     
-      <category term="数据库" scheme="http://beard.gitee.io/blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="carrot-vitamin.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
-      <category term="oracle" scheme="http://beard.gitee.io/blog/tags/oracle/"/>
+      <category term="oracle" scheme="carrot-vitamin.github.io/tags/oracle/"/>
     
-      <category term="mysql" scheme="http://beard.gitee.io/blog/tags/mysql/"/>
+      <category term="mysql" scheme="carrot-vitamin.github.io/tags/mysql/"/>
     
   </entry>
   
